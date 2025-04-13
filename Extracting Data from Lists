@@ -1,0 +1,49 @@
+Now let's do a little bit of
+data extraction from lists. Now, in the past few lessons, we've seen that we can
+definitely retrieve values using an
+index from a list. Here we have a list of colors, red, yellow, green, and blue. We can retrieve that specific
+item by using the index. In this case, I'm
+using zero and I will produce the red
+one. That's great. What happens if we want to do a range or we want to use a
+subset, how do we do that? We wouldn't be able to
+that with just indexes. That's where the slicing
+operation comes into play. That's used with a
+colon right here. I'm using square brackets
+and then Column 3. If I run this, you can see
+it's red, yellow, green, because it will produce just the first three items
+red, yellow, and green. Again, I'm using
+here the indexes. If I wanted to do
+just the first two, I will change that
+to two and it will produce just red and yellow. That is a very nifty
+way of producing subset of list if you know the range that
+you want to work with. Now, where it gets
+tricky and actually I have to check these all the time because I can
+never get it right, is a slicing for the
+last three items. I sometimes use 2 minus 2 here, and I will do this, but that doesn't yield
+the right things. What you need to do
+is pass negative 3 at the beginning and they'll
+get you yellow, green, blue. Again, yellow, green, and blue will be the second, third, and fourth item. That's produced
+with a negative 3. Now, you can also slice for a range which makes it
+really interesting here. You can extract
+yellow and green. If I scroll all the way up, you can see that it
+will do this one which is index of
+the second item and the third item or index
+of one and an index of two. That's how you would
+slice for a range. Now, you can also pop
+an item from the list, but the index number must exist. In this case, I want to pop the item Number 100,
+that doesn't exist. I'm going to get an index error, pop index out of range. There is no 100
+items in that list. I'm going to get a problem like an exception being raised. Use an existing item
+to pop correctly. If I do that, I'm going to
+assign and that's nicer thing here because the popped item gets returned so you can
+assign it to a variable. I have assigned a capture the
+value popped_item variable. You can see here that
+he popped the index of one and that was yellow. Now, popping alters the lists. Now you can see the yellow is no longer part of these lists. Now we are left with
+red, green, and blue. Another thing that you
+can do if you don't really care about what you're removing is what you're popping
+is used to remove method. Callers that remove
+and then pass brands and use blue and run this and it is going to remove
+blue out of the way. It's going to find where it is. The operation it has a couple of steps is going
+to find where blue is and it's going to remove that
+item from the list and the result is going to be this list and only has red and green and blue is
+no longer there. There you have it.
+That's a few new ways for extracting data from lists.
