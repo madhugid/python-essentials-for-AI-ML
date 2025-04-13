@@ -1,0 +1,56 @@
+Now let's take a look
+at a few ways where you can retrieve or extract
+data from dictionaries. I mean, we've already seen a couple of ways
+where we can do this. I'm going to instantiate
+these dictionary over here, which is
+conduct_information and we instantiate an empty dictionary. What happens if I retrieve
+a key that doesn't exist? Well, I'm going to
+get a key error. That's what happens when
+you try to retrieve a key that doesn't exist
+in the dictionary. In this case, the
+dictionary is empty, but it could very well
+be full of information and metadata and plenty
+of keys and values. But if it doesn't have height then you're going to
+get these key error. There's a couple of ways around these that I'm
+going to show you. The first one is using
+a try-except block. Now, I've not covered
+dealing with exceptions yet, and we'll cover those
+in another video, but in another lesson, but this is the way you would
+work with that key here. I'm going to try this operation of getting height but if I get a key error, I'm going to print six feet. If I run this, I get six feet
+because the key error is being caught and I'm doing
+something else instead. That's one way that
+you can deal with that nasty key error
+if you know what you want to do in case
+height doesn't exist. But another way that I really
+like actually is using.get. The.get method
+allows you to pass the key that you want to extract and it produces a specific
+value that we've seen before. It has a special type in Python that if the height is not found, you will
+produce [inaudible]. Let's see what happens
+here if I run this. The height of contact is none
+so I'm going to get a none. I'm no longer going
+to have a key error. I'm going to produce
+a none value. That's a helpful way
+because by default, if it's not found, it's
+going to produce a none. But what happens if you don't want a none and you
+want some other value? Let's take a look at that. The.get method allows
+you to have a falling back to an r-value
+and there's no key. Here I'm saying contact
+_information.get, I'm going to say I want to get the height and if
+you don't find it, is going to allow me to pass
+in the second argument. I want to produce
+5 ft 9 inches a string so do that and I'm
+going to run. There you go. Height is not found
+and height of contact is 5 ft, 9 inches, so that's how you will use get. Now, you can also manipulate
+dictionaries using pop, as you can see with lists before you definitely
+and actually sets as well. You can use pop in
+dictionaries as well. In this case, I'm setting age for contact information
+when I say age is 31. But I'm going to
+remove that key with the value out of the
+dictionary so when I bring the contact information,
+it should be empty. Let's run these. There you go. Age is 31. These print statement is looking into the contact
+information that pop, so that produces the value. We'll pop that age key and the resulting operation
+will produce 31. When we tried to look into the contact and
+restoring information, that's going to be
+empty because we've effectively remove that item. There you go. That's a
+few ways where you can extract data and manipulate
+data from dictionaries.
