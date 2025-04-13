@@ -1,0 +1,61 @@
+There are two other
+data structures that I want to talk about. Python has many data
+structures and in fact, you can also create your own data structures
+with your own rules. But there are two
+other that I think are relevant that you might
+encounter every now and then. The first one is tuples
+and a tuple is just like a list but you need to think about it as
+a read-only list. We have here like I've named it, ro_items for read-only items. You have first,
+second, and third, and you access the indexes
+just like a list here. This is going to
+say for example, first item in the tuple
+is and it's going to find where first is if I run this you'll see
+that the index is zero for the first item and then we're going
+to have first, second, and third, because
+here it is printing. Let's take this step-by-step. First it's sprinting
+ro items minus one, that will give you a third. That's minus one,
+just like a list is the last item iterable in the tuple and then we're
+going to loop over just like a regular list and it will produce
+first, second, and third. I wanted to make this a
+little bit more clear and comment this one out and that
+one out and run this again. Then we will have first, second, and third just
+following the orders. It keeps the order but it
+doesn't allow any modification but let's see what happens if we ask for an index
+that doesn't exist. I'm going to run these, I'm
+going to get an index error, so I don't have 10 items, so the index of nine doesn't exist and that's where
+we get an index error. It says tuple index
+out of range, very similar to a list. So scrolling down here,
+same with indexes. If we try to get the index of an item that doesn't exist we're going to get also a value error
+there and then we want to know what are some of the methods available
+with a tuple. You have these very nifty
+for loop here is going to go and do some spelunking into the tuple object and find all of the methods
+that are available. You do that with
+a built in here. You only have count and index. If you remember, for a
+list you have a band, you have pop but
+that's it for tuple. Once you create one you can only count the items and
+get the indexes. You can't manipulate
+anything about a tuple. It's a read-only. You can't append. Append doesn't exist. Tuple object has no
+attribute append. So those are tuples. Think
+about them as read only list. Once you create them
+you can't modify them. Next is sets and sets
+also are like lists. We can append, we can do a lot of things
+there with sets but the one particular
+thing about sets is that it keeps things in these collection
+of items as unique. You can be a little bit confusing because I'm
+going to run this. The notation, the
+syntax looks like a dictionary because it uses curly brackets but
+there's no mapping. That means we created a set here and then we
+added a one which is a string and that's
+how we add items to a set and that created this object with a
+one item in there. So what happens if I keep
+adding the same thing? Well, I find it 1, 1, 1 and then two and you can
+see that the product of that operation still
+produces two items. That's the
+particularity of sets, is that it helps keep
+things as unique. Then you can definitely still
+pop items but unlike lists, pop does not take an argument, pop doesn't take any argument at all and it will just
+pop the first item, and in this case the
+first item was one over here and it was left with two. If I run this again
+it will produce an empty set over there, so there you have it. That's two other data
+structures that you might encounter aside from
+lists and dictionaries.
