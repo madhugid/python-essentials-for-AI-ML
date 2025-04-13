@@ -1,0 +1,56 @@
+Now let's see how we can
+iterate over dictionaries, how we can look at the data, the keys, and the values, or both when we're working
+with dictionaries. As before, when I instantiate a dictionary here it is going
+to be contact_information, the variable that is
+going to hold our data. With curly brackets in pre-seeded data is going to be name Alfredo
+and last name Deza, which is my contact_information just like before,
+and that's fine. But you can also create one with a dict built in,
+which is a function. When I run that, that
+will work the same. Now, one of the things that
+I didn't show you before was that there's this other way that you can create
+a dictionary, which is by passing pairs. Here's a list with
+pairs of name, Alfredo and last name Deza. If I run this, you will see that it will
+create a dictionary as well. You can pass that as a
+list of pairs separated, like tuples, and then we'll see also later on as a different
+type of data structure. The last way of creating one is by using keyword arguments. Here I'm using first Alfredo and last name Deza and I
+will also work the same. Those are other different ways that you can create
+dictionaries but now we want to see how
+we can loop over them. I'm going to create a more thorough contact_information
+dictionary here. When I run this
+and I execute it, and it's going to have name, last name, age, and height, and you can have an explicit way of
+looping over the keys. If you only want to have
+the keys that will be name, last name, age, and height, the way you would
+do that is for key, and key can be anything really. It can be any word. It will be treated
+as a variable, just like when
+looping over lists. We're going to do for key in contact_information.keys
+and parenthesis, and that is going
+to produce name, last name, age, and height. But implicitly, by default, Python works the same. If I do that here at the top and I modify these
+cell and run it again, it will be the same result, name, last name,
+age, and height. That is for key in
+contact_information. If I don't say anything
+specifically like.keys, you will get a key
+that's just the same. So that's definitely
+something that you can do. Now, what happens if you
+want to retrieve the values? Well, this next cell is what
+it's going to be doing. It's going to be processing the values and you're
+going to access that with.values
+and parentheses. If I run this, you
+will see that Alfredo, which is the first
+name, and then Deza, last name, and then the age, and then the height is
+going to be produced, which these things are the
+things that are right here, Alfredo, Deza, 49 and 1.90. Those are the things that
+are going to be produced. Those are the values
+of the dictionary. What happens if you want
+both keys and values? Well, you're going to
+use.items to the dictionary. Not only that, but
+you also need to, and this is called
+unpacking in Python, you are going to have to
+use two variables here, one key and one value, and Python is going to
+be looping and producing two values every time it
+loops over each single item, each single pair, each
+single mapping of data. If I run this, you can see here
+it produces name Alfredo, last name Deza, age because he's printing that, and if I do, you can actually call that
+and see what.items means. In this case, it's this
+object here that looks like a list of pairs of items. That's it. That's how you
+loop over dictionaries, and you extract
+different types of data from a dictionary.
