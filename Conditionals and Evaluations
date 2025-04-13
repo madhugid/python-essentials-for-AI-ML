@@ -1,0 +1,91 @@
+The first thing that you want
+to know is the if keyword. If is a keyword in Python, it allows us to set a
+certain condition and evaluate that condition and do some action depending
+on the result. Here on the first cell, you can see that the
+condition equals true. If the condition is met, then it will print, "The
+condition was met." Let's run this and of course
+that evaluates correctly. The premise here is that if condition whatever that
+is evaluates to true, then the next line, the next block
+will get executed. That's the basis of logic
+handling in Python. Conditions need to
+evaluate to true to be able to execute
+the next line. Of course there are exceptions and there are ways that you can handle other types of situations when the
+condition is not true, and we'll take a look at
+those in a few seconds. What happens if the
+condition is false? Well, nothing will happen because Python will see
+that condition here, evaluates to false as defined
+here by the variable, and so the print statement
+will never execute. Now, I covered a little bit or I mentioned a little bit of this before that some data
+structures are truthy. That means that
+when they're empty, they evaluate to false and true when they contain
+certain items. Here you can see that the
+groceries variable is empty, so the code will say
+groceries print, we have some groceries. I'm initializing
+here another list called invites with two items, and we say invites print
+we have some invites. If I run these, you
+can see here that we have some invites but we
+don't have any groceries. Now, lists I'll cover
+in next lesson, but the important
+thing here is to know that when certain
+data structures are empty, they evaluate to false. I will say this is
+pretty much true for every single data structure in Python that is a
+built-in data structure, and when you have some items, it will evaluate to true. You have to keep in mind that that's something that
+you need to be aware of. Now, other data
+types like integers, in this case zero, it will evaluate to false, and a positive integer
+will evaluate to true. If I run this, we will get
+there's no properties, that we have properties
+will not execute, but we have parents will, because parents equals two
+and that evaluates to true. Also operators are supported and there's all kinds of different
+comparison operators. I think there's pretty much every single operation for operators are supported
+and if I run this, you can see here that
+the properties is zero, I have no property. That got correct because
+properties is zero in fact, so that evaluates to true, and if parents is more than one, there is more than one
+parent and that evaluates correctly because the
+variable is equals to two. Next, we're going to
+look at else conditions. If certain conditions are met, we can do that, otherwise we can
+do something else. In this case, if we have properties but we
+don't have anything, that's where the else
+block will come into play. You can see here at the bottom, we don't have any
+properties which will be the output of the cell, because that's the else
+condition and that's what got executed because the previous
+condition was False. That's an otherwise in English. The other thing is
+using elif conditions. Elif conditions are useful when you want to say not
+only like an else, so this is a very similar
+piece of code as before. We have the properties, we don't have any property, so that will come to
+the next statement, which is an elif. That basically means,
+it's like an else, it's like an otherwise
+this other situation, but you want to evaluate
+a null condition. We want to say else, if there are parents
+then do something else. We don't have any
+properties but we have parents, so that's great. It's like an else but with the added benefit that you can evaluate another condition. Again, I mentioned
+this at the beginning, but you can also have situations where you have
+negative conditions. Here name is assigned a None. Remember we saw those as variable assignments
+that you can do with different types. If not name, so you can
+use the not keyword. That basically reverses the
+valuation to the opposite. Name is none and it's
+treated like a false, so not false would be a true. That way we can say something
+like didn't get a name. If not name print
+didn't get a name means it's evaluating correctly, so you're evaluating
+negative conditions. Now the same is possible
+with elif conditions. If I run this, we'll get
+no name, and why is that? Because the last_name is none. We're saying if not
+name print name, but you can see here that I also have elif not last_name, but name was already none, so let's change that very
+quickly to something else. For example we can say Alfredo's
+first name and we run, and we shouldn't get, no
+that's the last_name. We say the name, let's quickly change
+the name here to Alfredo and last_name to none, and we run this. We're going to get no last name either because it didn't enter the if block and it continued
+to the elif block next. Lastly you can compound
+conditions with and. Now, be careful with compounding conditions because
+they can get hard to read. Here if I run this, we have has_kids, married, they're both true. If has_kids and married print this person is
+married and has kids. I'm going to hit execute and
+correctly evaluates to True because both these
+conditions has_kids and married are both true. The same thing you
+can do with not. Here, not likes_ books and not is_logged_in
+and print user not logged in will evaluate to true because both these
+conditions are correct. Not like_books means
+that false will evaluate to true and not
+is_logged_in here, which is false, will
+evaluate to true. That's it. That's how
+you use conditionals, and with these bases
+you will be able to handle a lot of the
+foundational logic in Python.
