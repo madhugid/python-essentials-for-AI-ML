@@ -1,0 +1,86 @@
+Let's take a look at how
+Exceptions work in Python. Exceptions are how
+Python bubbles up or advertises errors
+in your program. We've seen already one or two of the exceptions in past videos, but here I'll go into a
+little bit more detail. If we run here these code, which you see 14 divided by 0, you would get these very
+nicely descriptive error, which is in fact an exception
+called zero division error. You have to be careful with the operations that
+you do because sometimes they might bubble up, they might advertise or raise or show some errors
+with an exception. Sometimes the exception
+will have a message. In these cases,
+division by zero, and zero division error is
+the name of the exception. This is useful and we
+will see later why, because you can also
+handle these exceptions. Now, you can also raise
+exceptions on your own. In this case, I'm explicitly saying racing a runtime error, which is a built-in exception, passing the
+parenthesis and adding a text string here value
+that is saying this is a problem and these
+correctly raises the problem and bubbles up
+and shows us runtime error, this is a problem. That is how you
+generate an exception. You may have a function or other piece of code and you want to interrupting and
+bubble up a problem. Then this is how you would do it by using the
+raise keyword. Now, you can also
+catch an exception, but a word of warning. Just catch exceptions that
+you're going to handle that you know that certain situations are going
+to be able to be handled. It is pretty common when
+you're starting with Python to try and ignore exemptions
+and throw them away. Exceptions are useful, and they are therefore
+a good recent. In this case. I'm going to run these and I'm
+going to get a 7.0. What's going on here? Try is going to go
+into the next line, is going to do this
+operation which is resolved equals 14
+divided by 0 and that try is going to go and
+try to do the operation. But, as we've seen, 14
+divided by 0 is going to cause a ZeroDivisionError. That's what's happening
+here in the next line, I'm doing an except. It's that try-except
+it's how you are going to be able to
+catch exceptions. You're going to try something and you going to get
+into the except block, if there's an exception
+that matches what you're catching in this case, I'm
+catching ZeroDivisionError. I'm saying, " Oh, I'll do some more intense
+operation in this case, the result is going to
+be 14 divided by 2. I'm going to print
+the result and that's going to give me a 7.0." All right let's move along. Don't get tempted to catch
+all exceptions here. You can see that I'm using
+an except exception. That's a very generic, very broad catching
+of exceptions. That means catch every single
+exception that you can, almost every single exception that Python has,
+it doesn't matter, I don't care and
+I'm going to run these and I'm going
+to get a 7.0. But the problem is that in this case we have a division by zero problem here in result. We also have a runtime error. You might be getting different
+types of exceptions, but you must know where
+it's coming from. You must know what this thing is getting raised or have two
+possible exceptions here. Two possible things that
+may cause an exception and I don't know because I'm
+saying except exception. The way to do this is to
+catch multiple exceptions. The way to catch
+multiple exceptions, here I have two things. I'm dividing 14 divided by 2. I'm catching ZeroDivisionError, so I'm going to run
+this and oh no, I'm also getting a TypeError. That is because I'm
+using result which is a float that is trying
+to add to a string. You can see that represented correctly here as a TypeError unsupported operand types
+for float and strings. I can't use addition to those. The way I go around that
+is by catching, well, I have to go here and I have
+to add them as a double. I'm going to use a
+parenthesis error ZeroDivisionError, a comma here. Then I'm going to
+add. You can add as many types of exceptions
+that you want. If I do these, I'm
+catching both or either one of these
+ZeroDivisionError or TypeErrors. If I run these perfectly
+works because now I'm guarding against
+both problems. I f I went and did
+these to zero, which will be a
+ZeroDivisionError. That would also work great. Lastly, you can also assign the resulting
+exception to a variable. Here I'm going to
+do a Try Except, and the result is going
+to be 14 divided by 0. Again, you've seen that
+ZeroDivisionError. The way you assign that to a variable is these
+thesis statement here, except exception
+name, in this case zero division error, as error. Then you can use that here
+with these print statement. I'm using the error or the
+variable that is here, which represents the exception, and I'm using the next
+string to print it out. Let's see what that looks like. That prints out got an error
+and a little arrow there. The error was division by zero, which if you remember, that, is the message from
+division by zero. If I scroll all the way
+up here, there you go. That is what you're
+going to get. That's how you work with
+exceptions in Python.
