@@ -1,0 +1,54 @@
+Let's see how we can
+add data to lists, so before we've seen how we can define a list and
+we do that with square brackets or
+a straight brackets and we've also seen that
+sometimes we can append things. Let's append some things, some items to these fruits list and you can see again that
+he preserves the order, but another thing that
+it's similar to append, is that you can do an insert. That's something
+that you might want to use every now and then, depending on the type of operations that you're
+doing with data. In this case, I want
+to use the index of zero and insert a melon. If I do that, I will be able to insert melon, the first position,
+the index of zero, and then followed by
+orange and apple. Remember lists, keep
+track of positioning, keep track of order but if
+you want to alter that order, well, you will be able
+to use insert for that because it allows
+you to pass an index. You have to watch out because
+the index is required. If I take this out and
+try to run this again, I'm going to get
+into trouble here. I'm going to get
+a type error and insert expected two
+arguments got one. The index number is absolutely
+100 percent required. Now, you can add one
+list to another one, which is something that
+we have not seen yet. Lists can use the
+addition up right here to create or extend or produce a list that will be
+the addition of two lists. We have vegetables and we have cucumber and carrots
+in the vegetable list. I'm going to add fruits and vegetables and then
+see what happens. We add those two, we're going to
+produce this list. It has all of the
+items together, so we grab two lists, and put them together
+as a new one. That's good and you can
+definitely use the addition. Now, what happens if you want to append a list to
+an existing list. Here before we have two lists
+and we did the addition there and you can see that
+we produce these lists here, but what happens when you want to append a list to
+an existing list, so let's see what happens. We had shopping list was
+fruits and vegetables. We wanted to append
+sugar and salt. What will happen here we will
+have melon, orange, apple, cucumber and carrots, but now we have a
+list within a list. Now, that may be what you want to have a list
+within a list, but if that's not what
+you want to have, then what you want
+to do is to extend. Now extend a list is similar to appending to a list
+or adding them, actually appending
+all of the items in the other list or
+adding both lists. You can say shopping list
+that extend and then pass the list in this
+case is just sugar and salt and let's see what
+happens when I do that. Perfect. You're going to
+end up with no nested list. Those are a few
+ways where you can add more data to
+list and work with different types of lists
+and append them or extend them and even do
+addition of lists, like add two lists together.
