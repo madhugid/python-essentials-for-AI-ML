@@ -1,0 +1,25 @@
+In this lesson, we will be working with variables and assignments. 
+Python is not a strongly typed language. 
+That means that we can assign variables and not worry about the values. 
+I'm going to be working here with Jupyter Notebooks, and all throughout this course, you will see me using Notebooks everywhere. 
+I have here Python 3, but this should work with any Python version that you may have locally. I'm going to hit "Execute Cell" here. As you can see, I've assigned, and the assignment works with a key or a name and a single equals and then a value. 
+In this case, I'm using string, and we'll check about different types of values that you can use later. Next, you don't need to worry again about the type of the value. 
+As you can see here, I have a string or you can be using a float here with a distance or height with an integer. Again, we'll check different values that you can use in Python later. 
+But it is important to note that it doesn't matter how you assign them. That is why Python is referred to a programming language that is not strongly typed. 
+Continuing here, you have to be careful because the lack of type-checking might get you into problems. Here, I've assigned a height that is 10,000. But 10,000 is a string. 
+So if you wanted to create a numerical operation with the string, you might get into trouble. The representation here at the bottom, you can see it's with single quotes. 
+Again, we'll check different types in Python and how you can work with them and what does that mean when you're doing operations later, but it is worth noting that you have to be careful with the types. You can also reassign variables. 
+So far, we've had the name, which if I scroll all the way up, is Alfredo, like my first name, but you can also feel free to reassign a no problem will happen. 
+In this case, we've reassigned to James and James is the output. Now, you can see here that I'm also just typing in the name and that will come out and that's a fine operation. 
+Next, you can use print for variables. That's a nice way where you can check the output, the values of different things. In this case, I'm using a comma, so that's why James Deza there comes out. You can use comma or no comma. 
+If I remove last name and just leave name alone, that'll give me just the variable output or the representation of the variable as the string and I'll put it in the terminal. 
+In these cases, Jupyter Notebooks. Next, you can create new variables from existing variables. 
+We have name and last name, but we can reassign them, construct something completely different and assign it to a new variable. 
+In this case, we want to create a full name. Then I click "Execute", and you can see here that now I have a variable name, full_name. 
+In this case, I use f-strings. We'll take a look at how does that work later when we are talking about different types, including strings later, but you are definitely able to create new variables from existing variables. 
+Next, we're going to see how copying variables might be a little bit surprising. We can create, again, new variables from existing variables. In this case, it's new_name, and then we're going to print that. Then we're going to reassign that name to Alfredo. 
+Remember, right now it's James. I'm going to print the new name and then print the name and see what we get. We get James, James, and then Alfredo. Why is that? Because the name, when this was created and assigned to new name, the state of the Python interpreter said, the value for this is James for new name and I'm going to reassign name to Alfredo. 
+That's why I'm going to use Alfredo right there. But then I'm going to print both a new name and name. One is changed and the other one isn't. You can see that reflected here in the output. Lastly, one thing that you can do with print is, again, use commas. 
+With the comma-separated values, what you will get is a nice spacing there. If you don't use commas, you won't get that spacing. If I were to say, for example, something like a name plus last name, you'll get that space removed. 
+It is convenient to pass items to print with a comma, and you can use that definitely whenever you're passing multiple values to print to get to that separation. 
+That's it. How you work with variables and assignments.
