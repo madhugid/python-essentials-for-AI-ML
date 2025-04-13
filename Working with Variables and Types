@@ -1,0 +1,22 @@
+
+Variable - A named location in memory that stores a value. Variables don’t have an explicit type and can be reassigned.
+
+Assignment - The = operator sets a variable name to a value.
+
+f-String - Formatted string literals that allow embedded expressions using f” “ syntax.
+
+Integer - Positive or negative whole number with no decimal point. Supports math operations.
+
+Float - Number with a decimal point. Common for measurements and math with fractions.
+
+Boolean - A True or False value often used for logic.
+
+None - Represents no value assigned. Commonly seen as a default return value.
+
+If - Starts a conditional block that executes if the condition is True.
+
+Else - Adds a block that executes if the prior if condition was False.
+
+Exception - Errors that disrupt normal program flow. Used to catch and handle errors.
+
+Try/Except - Catch exceptions in the except block after first trying the code in the try block.
