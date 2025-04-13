@@ -1,0 +1,44 @@
+Now, let's see and talk
+about dictionaries. Python dictionaries is one of my favorite data
+structures in Python. The way you need to
+think about these, unlike a list which is
+a container of items, is a mapping of items. One of the examples
+I usually like to do is like a phonebook. You know how you have a name and that name maps to a
+number, a phone number. A phonebook is a perfect
+example of a dictionary, so it's a mapping of values. You will always have
+a key and a value. So here I'm going to run these. The curly brackets are
+required to create one, but you can create one in other ways which
+we'll be seeing next. This is just an introduction and whenever you see
+curly brackets like this, you should think
+about dictionaries. You can create or
+precede values. Here I'm using two strings, a key and a value and that's
+separated by a colon. If I run this, nothing
+really out of the ordinary, you going to have the same representation
+of what I created, which is a key and a value. The key is a string and the
+value is a string as well, but you can have
+other data structures and other types as well mapped which we'll be seeing
+next to here when I use a Boolean that's also allowed,
+that's not a problem. When you want to have
+more than one key value, you are going to separate
+those with a comma, just like lists when you
+have many different items. So the only constraint is
+that they have to be unique, here you can see that name Alfredo and name
+Alfredo are repeated. If I run this, you will see
+that I'll only get one. Python requires that the keys
+are always, always unique. In this case, these
+are not unique. So the second one will win and I will have just one
+item, one mapping here. Then what we can do also is also use other types of data structures like
+I mentioned before. What I'm going to
+have here is a list of items and we'll have lumbar, concrete, and nails. That's going to be mapped
+to the key of items. So that's certainly possible, but you have to be careful because it doesn't
+mean that you can have a list as a key that maps to a value, you
+will get into trouble. If I run this, you
+will get a type error. It's an hash word. That means that
+Python cannot convert that to an actual key and make the inner
+workings of what makes a Python dictionary so awesome, which is the
+uniqueness to find it. It works almost like a
+mini database in memory. You can use a data
+structure like a list, and that's when you will
+have a type error in an hashable type list or something similar when
+you try to use that. Use something to be careful. That's how you would start
+working with dictionaries.
