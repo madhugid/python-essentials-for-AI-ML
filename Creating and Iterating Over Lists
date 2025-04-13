@@ -1,0 +1,49 @@
+Now let's take a
+look at how we can create and iterate over lists. Now, we've seen a little
+bit on how to create them, which is basically you
+always use square brackets, but you can also use the
+built-in function called list. Now, a list coin with the parenthesis will
+create a list as well. Just like before
+you can see here, I'm executing these cells
+and the output is the same. Now, you can also have preceded values
+as we've seen before. You can add as many
+or not as many or any type of items you can put in there and that will be fine. Now, when you're
+iterating over a list, what we're saying
+is you're going to be looping over the list, which is one of the most
+common operations in Python. The way you do that is with
+a four in the in keywords. For color in colors, what we're going to do
+here is we're going to say color is going to
+become that one variable that is going to be every
+single time that there's a new item in the list,
+you will keep changing. I'm going to print color here, and I'm going to run these
+and you can see red, blue, and brown, which is what I would expect. Now a thing to note is that the order is always preserved. That's why we saw before
+you can use indexes. This is equivalent to iterate
+not over the variable, but from the list
+itself right away. You can definitely
+do that as well and the result is
+going to be the same. These are two ways. It's preferable to have variable names that will
+make it meaningful. Here I use colors as the
+container as a list of many different colors and
+so that allows me to pass in color and have some relation. Next, let's see list
+comprehensions. You have to be careful
+because list comprehensions are pretty cool and you can
+add conditionals in there, but they can be a little
+bit hard to read and sometimes they're easy to
+get into trouble with. I'm going to execute
+this one and then we'll talk about
+what's going on. I have a numbers list right here and what I'm going to do
+in the list comprehension, it is essentially a loop within a list within
+the square brackets. The way I do this is
+n for any numbers, if n is lesser than six. It's going to do a loop over all the numbers and if
+it's lesser than six, it will add them to
+dynamically to this list, which will be slapped
+onto low numbers cell. You can set any condition
+there if you want to. This could be if
+it's bigger than six and that would be only the
+number 12 right there. But it's a dynamic
+assignment within the list. Now again, be careful
+with list comprehensions. They're nifty, they're nice to used when they're
+self-contained like these. If they're too long, it
+can be hard to read and the reading capabilities
+of a program is also very important to have something very robust
+and maintainable.
