@@ -1,0 +1,84 @@
+let's take a closer look at some
+of the most common types that you will be working with. So let's start with strings. So strings are very powerful, but sometimes they can be a little
+bit confusing in python. So here we have a a cell that
+is using single quotes and sometimes you will see variables, strings. Which strings is basically a text. You need to think about a text value. So a string is a very just common type and
+you will see it everywhere. But here I'm using single quotes. So what's the difference in why? Why? Sometimes you may want to have
+double quotes or even triple quotes. So the thing is here is that
+you you will want to use triple quotes when to avoid
+escaping what is escaping. Well, if you have a string like this
+one where has a single quote and a double quote here within a string,
+then you don't need to escape it, you don't need to worry about that. Otherwise you would break the string. So you use triple triple quotes to kind
+of like think about it as protection for the string that you're using
+within the heat execute here and you can see that the triple quotes
+are useful when you have a single quarter double quote within a string. So these are coming off correctly. Otherwise you will get into trouble and probably will get a a syntax
+error from python, python would complain about an imbalance
+syntax because the parson would break. Similarly you can use single quotes
+when there's a a double double quote within the string,
+which is not that uncommon really. So that's a that's a quick
+way of working with that and you can use double quotes when you
+have a single quote in your string, so you can see here how how python has
+correctly, put some output there, that is telling you exactly
+what you need to do. Similarly the string support adding
+to other strings to compose text. That that is definitely
+a thing that you can do. You can compose new strings
+from existing strings. So I hear them assigning alfredo
+to the the name variable and then I am creating a new variable
+called result, which does an addition. Now this might be surprising like how do
+you add two pieces of text to strings? Well, python handles all of that and
+figures out the name is a string and that's perfect. And then you can add it to these
+string with double codes here and let's run this and see the result. So the result is again an output
+that is composed out of 22 strings. So you can definitely compose text. Now, one thing that we saw in a different
+lesson is that we were using or I was using F strings and F strings
+is none other than using a string with with this is prefixed
+with this F character and that allows us to use
+variables within the strings. It's a way of replacing
+values within the strings. So if I run this it will use the name,
+the value of the name, variable. You can see that was set here
+in the previous cell and that's being used to create to create
+this string output now because it's an F. String.
+The only thing it does is allows it allows us to use variables within but
+the end result is still a string. Alright, so next up are integers. And the way you can check for different
+types which I didn't cover before is by using the building type function. So you you do type and
+then open parentheses and then a value or a variable. And you will see the representation
+of the type in this case. 15 it's an integer. And in python that's known
+as an end into your support. Math Math mathematical operations. So you can run this and get some output
+but notice that it's no longer seven. Right? But you can also do invalid mathematical
+operations if you're not careful. So if I run these you will
+get a zero division error. Alright. That's not good. But you have to watch out for
+things that might not correctly work. And you can also get into trouble
+when you're trying to add other types that are non
+compatible in this case. I'm trying to add
+an integer with a string. So I'm going to click execute the cell. I'm going to get a tie pair. O that's a nasty air So
+you have to be careful what you're mixing with what in this case integers do
+not mix with strings in this way. Now types can change
+depending on operations and we saw a little bit of that in
+the previous help it I'm here, I'm dividing three into parts and
+getting a 1.5 and I'm asking for the type of the result and
+the result is a float. So this is no longer an integer. Now I was using an integer here so
+that's a whole number divided by two and That's 1.5 and 1.5 is a float. It's no longer an integer is
+no longer a whole number. Alright continuing with the different
+types that we're going to work with floats is a different one. We've already seen a little bit of that. 14.3 will be afloat because
+it has a decimal point and you definitely have floats that
+can be a little bit bigger. Now this is a common
+representation of the pie number. It's now very well represented but you get the idea we get some decimals and
+this becomes a float. Next up we're going to have some billions
+and the billions are either true or false. However you have to be
+careful because some data types will be represented as true or
+false values. We'll see that later on
+in another lesson but for now boom is the representation for
+the type of true and false. The billions in python in there. That's the way you write them. Is with capitalized T capitalized F for
+true and false respectively. Alright, so some of these values like I mentioned
+can be treated like true or false. Bull can also be called and you can
+see here that we can pass values and Bull will interpret the values as true or
+false. Bull of one would be a true value and
+boom of zero would be a false value. One is treated as true and zero as false. So if I run this you can see that
+the first result was one and then two for the second result and
+then printing both the first result and then the second result and
+I'm getting a true and false and finally we get a non none
+is very common in python. Some some functions some
+code can return a non or if it doesn't return anything,
+it will always return on. That might be surprising. And there's a lot of operations
+that you may find this non type. A nun is a no value. It's nothing. It's it's empty. There's different ways of defining empty
+in python and none is one of them. You can assign it to variables, You can
+use it to return some some values or signal that there's nothing going on. But it's definitely something used to
+keep in mind when working with different python types
