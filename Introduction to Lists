@@ -1,0 +1,39 @@
+This is one of those data
+structures in Python, that is one of the most
+common data structures that you will find. What they are in essence, it's just a container of items. As you can see here we are
+having here numbers, integers. But in reality you can have any type inside of
+these square brackets. Lists are defined by square brackets and when
+you define them, of course, you're going to have
+some output here, that's going to represent exactly the same thing
+as when you create them. Now, I said that
+you can actually have any type of
+datatype in here. I'm going to have an
+integer or a string, Boolean and a float and
+that will work too. That's a good thing that there's no constraints on to what you can add to these
+types of containers. It's a list, but
+I see it more as a container of things
+where we can put items, put data, and then work with it. You can also find more
+things about a list. You can always call the
+Len built-in function. In this case, I'm passing
+a dictionary here. You can see them. I have four items in here. You can define a list by
+assigning to a variable. We've seen how to
+assign items to a variable and in this case, I am running items
+equals carrots, peas, and salary to have
+these three strings, then I'm retrieving
+by the index. What does that mean? Well, every single item
+in a list has an index, a position and in Python, the first index starts
+at the zero number, so it's, the index 0
+is the first item. That is why when you want to retrieve an item, in this case, I'm using the
+square brackets and the zero integer that will give me the first
+item in that list, so it preserves the order, which is pretty important. Because it preserves the order, the index is important. I want to get the first item
+in my list so I get items, square brackets zero
+will provide me carrots. If I change that to one, that will be peas. However, there's
+other neat tricks that you can do with lists. You can do negative integers, which will take the last item. In that case, that
+salary from way back. But if I wanted to get the second-to-last,
+that will be peas. If I click here,
+that will be peas. That's how you would work a
+little bit with dictionaries. That's the notation.
+The indexing can be pretty confusing, especially because
+it starts at zero. Some people expect
+that to be a one. But if you keep that in mind, you will have a nice way to interact with a list when you
+want to extract some items.

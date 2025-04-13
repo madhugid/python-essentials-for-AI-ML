@@ -1,0 +1,21 @@
+List - An ordered collection of values enclosed in square brackets []. Useful for storing sequences of items.
+
+Index - The numeric position of an item in a list. Starts at 0 for first item. Used to access items by position.
+
+Iteration - Repeated execution of code on successive list items. Done in Python with a for-in loop.
+
+Dictionary - Unordered collection of key-value pairs denoted with curly braces {}. Keys map to associated values.
+
+Key - Unique identifier that is used to look up values in a dictionary. Looks up are very fast.
+
+Value - Data associated with a given key in a dictionary. Values can be any Python data type.
+
+Tuple - Fixed-size, immutable ordered collection similar to a list. Denoted with (). Useful when data shouldn't change.
+
+Set - Unordered collection of unique objects. Helpful for removing duplicates and set operations.
+
+Membership - Ability to check if a value is contained in a collection like lists, dictionaries, tuples, or sets.
+
+Methods - Built-in functions that allow manipulating and interacting with data structures.
+
+Iteration - The process of repeatedly executing code on each item in a collection one by one.
