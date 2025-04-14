@@ -1,4 +1,6 @@
-# Generators
+
+
+https://docs.python.org/3/tutorial/classes.html#generators# Generators
 #  are functions that lazily produce a sequence of values using the yield keyword instead of returning values all at once like regular functions. This allows for lightweight lazy evaluation.
 
 # Key Points
@@ -34,6 +36,8 @@
 # Implement a generator that takes a list and loops over it in reverse order
 
 # Build a random number generator using Python's random library and generator pattern
+
+# https://docs.python.org/3/tutorial/classes.html#generators
 
 def lazy_return_random_attacks():
     """Yield attacks each time"""
