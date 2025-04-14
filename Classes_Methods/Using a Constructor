@@ -1,0 +1,85 @@
+Now that we have
+a quick overview, quick introduction
+to Python classes, let's see what using a
+constructor is all about. A constructor is the
+ability to set some things, some attributes do some things when the class is
+getting created. In this case, we're going to
+be using the dunder init. I mentioned it briefly before we were doing the
+overview of classes. Let's take a quick look
+at how we do that. This is how we define
+the ability of a class. We'll take some arguments
+and define what those arguments are
+and set some behavior. Here we have our same class
+as before. It's a dog class. I'm going to call it
+so that we can have it available there in the name
+space and line number 5 is going to have
+this special method is going to have
+self over there. Line 6, we're going
+to use that self and say self.is_animal equals true. This is slightly familiar to what we had before
+with the class attribute, except now we're
+using self. Why self? Because now it's part
+of the class dog. You might feel slightly confused because
+if we do this dog, and then we call these
+like that we are also going to have a is animal just like
+the class attribute. If I run this, I'm
+going to get that true. Now, the difference is
+that I can't change these and affect
+every single class like before with the
+class attributes. It's a safer thing to do. But let's not get
+distracted with these. Just be mindful that
+you're going to have self, and you're going to be able
+to set some stuff in there. Self was used again with these so not only done init
+is a special method, but it's also using for
+setting its variables. I'm going to create
+two instances here, and I'm going to run these, and you can see that will be
+true and everything is fine. Now, if I change the
+attribute is_animal to false, then nothing changes for
+these two instances. Everything is kept the
+same so they're protected. Think about something
+that is inside a house; it's protected, is within the boundaries of
+that house or in this case, that is the class. We have state and one of the things that I
+wanted to show you is that we can also change that state by allowing to pass arguments
+into the constructor. In this animal class, the constructor is going
+to have self as always, as every single
+method in a class. I'm going to pass a required
+argument which is name, and two keyword arguments
+which are optional, legs, and barks. Just like before, the way to set those variables in the class for Line 6-8 is
+going to be self, and I'm using the same name, but this could be anything. Line 6 could be self that something equals
+name. Perfectly fine. But to keep things consistent, I always like to name
+these attributes for the class name the same as the arguments and keyword
+arguments that we're getting. We're going to require name, and then we're
+going to have legs, and we're going to see
+if he barks or not. We're going to use those in
+here, but there's a bug. See that comment
+in line number 10. There is a bug, and
+we're going to find out what that bug is all about. We want to have some info. We're going to create
+this class called animal, and we're going to
+have this info method, I'm going to call it, and it's going to print some information. This is an animal name
+something and has so many legs. If it barks, it'll
+tell me if it barks otherwise if he doesn't
+bark at all. There's a bug. Can you see what the
+bug is here on Line 12? It is a problem,
+and we're getting squiggly underlines
+from the editor, although it's not
+telling me because I have that disabled for now. I'm going to run these, and we're going to try
+and see if instantiating a bunny named Buster that
+doesn't bark will work, and we're going to
+get a name error. Why a name error? Because
+name is not defined. Where is that error coming from? Line 12, it says this is an
+animal name and has legs, so this is a problem, and we need to fix that. The way we fix it is because this name is not a
+regular variable. It is self, that name. We no longer have access to this thing that was passed
+originally to the constructor. We have access to the variable
+that is within the class. If we update these
+to be self here, and then we go and
+do the same here, to legs and then the
+same here to barks, and then we save that. Then when we run
+this class again. Then what happens is
+that this will work. This is an animal named Buster, it has four legs, and
+he doesn't bark at all. That is how you use
+self within methods, and within the class actually, and now we can print all
+of these attributes, and we can see him
+printing name, legs, and barks, and that
+works perfectly fine. The way you access those attributes from outside the class is by using
+the name of the object. In this case, is bunny.name.legs.barks
+and that will work. From within the class, you have to use self. You have to prefix those
+variables with self.
