@@ -1,0 +1,70 @@
+Another thing to keep
+in mind when you're working with functions
+and arguments is that you may encounter variable arguments
+and I'm going to show you a variable arguments and variable keyword arguments. These variable arguments and keyword arguments basically
+mean that the function can define zero or more arguments or keyword arguments and it doesn't care if
+you're passing one, if you're passing zero
+or you're passing 100. Why that might be useful, well, because sometimes you
+really don't know and I have these very basic
+examples here with some functions and we'll see some situations where
+that might be needed. Say for example this
+function in these case is family members and the syntax
+is using the asterisk here, the star args and you can
+name these whatever you want. You most commonly we'll see star args or asterisk
+args or star a. Both are used sometimes
+and developers might want to use some
+other thing here, but these within
+the function will become the variable that has
+all of the items in there. Internally, this
+will be a tuple that contains all of the items that you're going
+to be dealing with, all of the arguments. I'm going to run these. It's going to create this
+function, the family_members. I don't know how many family
+members I'm going to pass, but it's going to
+have the ability to accept any number and then I'm going to pass
+Lucy, Matt, and Bob. Those are three family
+members and see what happens. What happened was
+that he went through each item in the args
+and he printed Lucy, Matt, and Bob. It did a for name in args and print name, that's perfect. That's something
+that you can do. But you can pass also zero
+and that will be fine. If I pass zero, there's no output
+because there's no arguments and because
+there's no arguments, nothing is getting
+looped or printed. That makes it really
+flexible.You might want to have zero or more and that's
+definitely doable with arguments. Now, there is no
+need, like I said, to call it args or
+star a or star args, although that is very common, you can actually
+name it whatever. In this case I'm saying
+family_members is going to take a star names and that is going to be
+the same effect. If I want to pass
+here family_members, and we're going to say John
+and Sam and run these. It's the same behavior,
+then nothing changes. But our loop does change because now we don't have args
+inside of the function. We have names. For naming
+names, print name, perfect. Now, the other thing
+is keyword argument. Now we've seen
+keyword arguments, but what if you want
+to pass zero or more? Well, you're going to
+do that with star, star or double star here. This asterisk in kwargs
+or keyword args. If I run this, you're going to see
+that I'm passing slow and now I'm
+passing these mappings, see how I'm passing
+these keyword arguments. I'm saying speed equals slow, active is false, weight is 210, but I'm not defining
+those things. The stats function
+is not defining any, but is able to accept
+them and internally, these become a dictionary. How we are going to loop over them or how I want to loop
+into what we're getting, well, we're going to use
+items here because I want to loop over
+them and I want to capture the key and the value. But internally, it
+is a dictionary. You can work with it as
+if it was a dictionary. If you want them pass all
+different mappings here, a keyword arguments, you can do that with star, star, and you can change
+this to anything here. Active. However we say
+speed or is it quick, when I say that and
+then changes the key. The key changes
+there. Very flexible. Isn't it? You can do a
+lot of useful things. Because it's variable, you can see here that the result is going to be none and
+that's going to be fine. Again, very useful. A couple of things
+there that you can do with variable arguments. I hope you find this useful. I certainly use it
+every now and then, especially when I don't know how many items I'm going to receive or the
+function is going to receive.
