@@ -1,0 +1,53 @@
+Let's work now with imports. I have a utils.py here. Utils.py deals with py module, it's a Python file. I've decided to show you a
+little bit the structure here, and you can see that
+utils is right there, and I have a Jupiter notebook here
+called working_with_imports. Now, the way you
+work with imports is basically Python is a scripting
+language so if I go here, you access them with a
+separation of a dot. I'm going to import here utils, and you can see everything
+that is available on utils. Disregard the underscore
+methods and names, but you see that str_to_bool, and str_to_int are there. If I go back to utils, you can see those are
+my two helper functions in my utility. The notation, the
+way to access them is utils.str_to_bool
+and utils.str_to_int. You can work with different ways of accessing
+these helper functions. But the most basic level, if you import utils and utils is right
+there on your path, so say if utils was
+in a different path, then you would have to
+worry about installing dependencies and properly making that available to Python. But because I'm in
+the same directory, in the same spot,
+this works fine. The way I would make
+it work is utils., and then the name
+of the function that I want to work with. This could very well be
+a class or a variable, it will work the same. That dot has to be present, that is how you would
+access whatever is within that utils.py
+file, that utils module. In this case, str_
+to_bool is available, I run it, it works. Utils.str_to_int
+works the same way. Now, you can also
+import them separately. I'm going to say from utils import str_to_int
+and str_ to_bool. The one difference is that
+everything works the same, except for the fact that I don't need to prefix them with utils. Because I'm importing them explicitly from utils and
+I'm adding them here, then those are available
+to mean the same scope. Those are a couple of
+ways that you can do. Now, I also have a directory. Usually directories in
+Python are called packages, but it gets confusing because you are not necessarily
+installing these things. I use them to keep
+things in order. But let's take a look
+at this program thing. I have it right there, and you can see that
+I have a _init, and an items.py file, an items module that has some
+function defined in here, that just returns this is
+a function in a module. Now the module is items, the _init_.py allows Python to understand these
+things like a package, I'm able to make those
+modules available. If I go back here to
+working_with_imports in my notebook, you can see that I can
+import program.items and program.items.some_function()
+is available to me. Now, if I wanted to have items to be available
+as part of a program. If I wanted to do something
+like import program, then I wouldn't be
+able to do this program.items.some_function
+without adding that inside of _init_.py. Now, that is just
+something to keep in mind. Now, this is working. They either knew exactly
+where I was going, because it's like cheating because it saw that I
+already imported that here. Something to keep in mind. That's it. That's how
+you work with imports, different ways of importing, and different ways
+to have access to that namespace for things that you need from our
+files and our modules.
