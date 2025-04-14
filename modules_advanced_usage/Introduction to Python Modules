@@ -1,0 +1,38 @@
+Now let's see a little
+bit about Python modules. Python modules are
+nothing else that a file, a Python file, so if it ends in that
+py it's a Python file. That's a module, that's it. That's really all
+you need to know. You can think about it as a
+way of organizing your code. If you see something like a very long Python file
+with several classes, hopefully not too
+much inheritance, perhaps lots of functions
+and it's more than like say, 200 lines to give a number, it's not very well organized. You need to work with modules when you want to
+organize and the example that I usually give is that imagine having one drawer
+for all of your clothing, it probably wouldn't work. If you have everything in
+one spot it's better to have a separation of things and keep things
+neat and maintainable. You definitely make
+it maintainable. This is just an
+example CLI project that I have here like
+example structure. You can see here that there's
+a dunder in it, the py. I'll talk about that later
+in a different lesson but you see that I have engine and exceptions
+and main and network. It gives you some IV and that things might go in
+separate places. If you wanted to deal with certain exceptions or have
+some custom exceptions those will both be found in exceptions.py file
+which is a module. Now, that will give you a good neat way or way
+of working with things. Python itself also
+has its own modules. I'm importing OS, I haven't
+touched yet on imports, we'll see that later. But if I do there
+in a code there on OS you'll see that there's a lot of things in that one module. Now, besides these two examples I wanted to show you an example
+project that I have here. This is a personal py that
+I have and I'm within that project and I have a lot
+of different things here, I have decorators,
+engine exceptions. Let's take a look at exceptions. You can see here that I
+have base exceptions. We're looking at an inheritance a little bit there to have a custom exception and that's where you would go
+for custom exceptions. I have a narrow exception here, a narrow exception over there. It gives you a good way. We'll deal with
+these perfect spot to put things that you want to reuse and you want to make it available to other modules so that they can import that. That's a perfect use case. That's a very good use
+case and then you have order and we'll talk about directories and how
+those work later. But this is how you would get introduced
+to Python modules. Basically what you
+need to know is anything that is in a.py file is considered a module and it can help you organize
+your code better.
