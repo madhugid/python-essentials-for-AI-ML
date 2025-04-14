@@ -1,0 +1,61 @@
+[SOUND] Class inheritance is
+one of those things that when I first encountered when I
+was first learning python is one of those things that was very
+difficult for me to understand. I couldn't, I had a hard time, and it is perhaps one of the main reasons why
+I avoided using classes to begin with. It is very tricky to understand, so
+hopefully with this short explanation, it will help you clarify what it is and
+how to work with it. And give you a good idea not
+perhaps how it actually works, but like what's the behavior and
+what should you be expecting, so I have a base class for house beds. The premise of having a inheritance and working with inheritance is
+going to have a parent class. And then the child classes are going to
+inherit are going to going to have certain behavior attributes and
+anything that the parent class defines. So I'm going to have
+these pet class here and it's going to define
+a single method called it. And this method will say,
+hey self that food equals self, the food minus self that appetite. So it's going to depend on self,
+that food being present and self appetite being present. Know that I'm not defining anything here,
+so these classes, it is if you instead she ate it and
+you run it. It will probably cause some trouble
+with it because there's some stuff here that is not defined. Actually why don't we do that? So you can see what happens
+if I do pet equals pet and then I try to make this pet eat,
+then this would get into trouble? There we go, attribute error it
+doesn't know has no attribute food. So let's just remove that and
+that's a problem, right? But this is a parent classes
+defining a method that we want all of the other classes to have. So, the way inheritance works with
+child classes is by passing it here, you can see I'm going to create
+a class called parakeet. And parakeet is going to require
+is going to inherit from the pet. The pet class over there
+on line number three, that in this parakeet class is
+going to have a constructor and it's going to define both the food and
+the appetites. It's going to say I have 100 Items of food
+and appetites, she's going to be one and I'm going to have a dog that
+is also going to inherit bed. And similarly this dog has more
+food in this case is 400 and appetite is going to be seven. So I'm going to run this and
+see what happens. So I've created perry and
+rufus, paris, parakeet, rufus is dog and
+then we're going to make both of them eat. And you can see perry eat
+1 of food has 99 left and and rufus eat of food and has 3 93 left. So, how can they have this method
+of eat if they don't define it. See the class dog, there's no method eat, it is inherited that's coming
+from the parent class. And perhaps that potential
+confusion is one of the things where I try as hard
+to not use inheritance but it's good to know how they work. Okay so one of the things that
+you can do to inspect classes and objects is used there which
+you say a built in function. And going to run this and you can
+see here that anything that doesn't start with underscore will be printed and
+you can see appetite food and eat. The method from the perry
+class are going to be present. So one very common real
+world scenario is using the unit tests that test case based class. Whenever you're running tests or
+green tests with the unit test library that comes with python,
+this is the way you have to create test. So I'm going to in stan she ate this,
+I'm going to define this testing class, I'm going to pass. And I'm not going to add any methods and then I'm going to create
+this object here in 97. And then I'm going to do the same exercise
+the same quick loop to see what are all the attitudes that I have. And look at all of the stuff that
+comes with that parent class. All the assert methods and some others
+that are not assert methods and some others were admitted
+because they're too much. So, that is another thing that might
+be surprising to you if you're not used to inheritance is that you will have a lot
+of things that come from a perry class and hopefully you're mindful
+about using inheritance. And but if you find it out in the wild or you're working with an existing
+project that has some inheritance. That's fine because you will be able
+to understand how that works and that you will come with extra methods and
+things from the perry class.
