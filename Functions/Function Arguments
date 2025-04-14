@@ -1,0 +1,56 @@
+Now functions can take arguments in this
+case we'll see how those arguments work. A function definition with required
+arguments will have something between those parentheses. So you can see here I have the squared
+function and this function, all that it does is it returns the squared product
+of whatever number we're passing in. So if I run this and I pass the four
+as an argument, I'll get at 16. So that's for four to the square to
+the power of two will produce 16. So this function is is doing
+a mathematical operation any requires an input. So some functions will
+require an input and in this case you have to pass a number. So what happens if you, if you don't pass
+a number, you don't pass an argument. You're going to get a type error. And in this case you're seeing that
+square missing one required positional argument and that is called numbers. So I need to pass that number now. Whatever I'm passing in will
+take the variable names. In this case I was saying,
+hey, I need a number and that's a named variable named argument. So when I pass that input,
+that will become my variable. So that's that's good. Now there are functions
+with optional arguments. This one in this case, the end built in
+function you don't need to import it. It just appears in the global
+name space in python. I didn't create this function. It comes with python. It will give you a zero. So it is very useful because you
+can do a couple of things with it. You can convert strings
+to to an into your value. So so that's definitely something
+that you can you can use and it has some other uses as well. But the thing here is that if
+you don't pass any any inputs, any arguments, it works fine and
+if I pass here at 10 you can see produces a 10,
+not a string but an integer. So that makes it flexible and sometimes
+you may want that flexibility some more times, you may not want the
+flexibility kind of like what we did with a number with with that squared function
+here in the beginning, we want to have the number so that we can provide a result
+but some other times you may not want. So that flexibility is important. Next I want to show you
+what a keyword argument is. Now a keyword argument is
+the ability to make it optional and and and have a default. So here I'm saying I'm creating
+a function called greetings. I'm saying that the full
+name is john doe and I'm then going to print greetings and
+then use the full name. So I'm going to create the function,
+I'm going to execute it, I'm going to in stan she ate that and now I'm going to call greetings without an
+argument and ingredients with an argument. So if I do this, you're going to say
+greetings john doe because I didn't pass anything and I'm going to pass superman
+and that says superman, okay, great. So behind the scenes, python is saying,
+if I'm going to get a full name, that's great. Otherwise name it john doe so
+that equals and then the string, that's, that's what it's going to be using. This type of mapping of value in
+an argument is called a keyword argument. So this is the key word is using a key and
+then the value. So that's that's the default. It uses that as a fallback and
+lastly one thing that you, you want to be careful about is that if
+you're mixing arguments like this one and keyword arguments,
+it has to have a specific errors order. Actually you have to pass first the
+argument and then the keyword argument, Otherwise python will give you
+an exception a syntax error. This is incompatible. You have to be able to pass all
+of your arguments first and then your keyword arguments. So let's see how this works. I'm going to pass a name
+which is required and the title is optional in these
+cases falls back to doctors. I'm saying formal ingredients
+just Jenkins as a name. I'm not passing the title and
+then that's fine. So if you wanted to pass something
+different, you could do it two ways, you could say you know, you could say
+something like this without naming that argument and
+they will be used here as a senior. But you could say also the following, you could say title equals to to that and
+that works exactly the same. So that's that's how you work
+with function arguments. You get arguments, optional arguments,
+keyword arguments and a specific order.
