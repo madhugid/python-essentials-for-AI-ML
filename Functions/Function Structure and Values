@@ -1,0 +1,46 @@
+Next, let's look at functions and how we can work with
+functions in Python. Functions are the order first or initial way how you may get exposed to writing
+some reusable code. Now, to write a function that the most simple thing
+that you can do is like, I have it right
+here in this cell, you will need to use
+the DEF, D-E-F keyword. That will say, hey, I'm going to start the
+definition for a function. Then you continue with a name, no spaces, and that's
+followed by parentheses. And lastly with a colon. And then the next line,
+the following line, needs to be indented so
+that in Python will mean, hey, this next line is
+part of these function. In every single line that comes in as part of
+this function will have to be indented at least
+four spaces in this case. If I run this, it will create this
+function called simple and whenever I call it, it will produce these outputs. If I run this right here, you will see that it prints, this is a function. Now, when I started working
+with functions in Python, this was a little bit confusing for me because sometimes I
+wanted to catch these value, these is a print statement. But there's a core difference in functions of functions that do a half-like actions and
+functions that return values. So not, not all functions
+that do things will return a value and when you have a function
+that returns a value, well, that's great, but
+not all of them do. There's a slight
+difference, in this case, this is a function that does something and it
+doesn't return a value. There's no return value there. What happens if I want to assign the simple function
+that is going to do a print statement to the result variable
+and then print it out. What will happen? I'm
+going to run this. You'll see this
+is a function and the value of result is none. I'm getting a none and that
+is because in Python you will always get an implicit
+return value of none. If you return a value, that's good but if you don't, python implicitly will
+assign a value of none. There's nothing here
+being returned. Although these things
+printed this is a function. It is something to
+keep in mind and you have to be able to
+acknowledge that there's, there's a thing there
+that might return or not return and if he doesn't return,
+you'll get a none. If you want to return
+a value, in this case, I'm returning previews
+the preview function is going to return a value, and I'm going to call
+it right here and then assign it to the result and
+I'm going to bring that. I'm going to execute the cell and I'm going
+to get the result. This is a return value. That's, that's it. Those are some of the basic
+operations that you can do. That's how you create you
+write a basic function. Functions can do things and
+not necessarily return. If they don't return, you will have a none as value. If they do, well, you'll have the
+ability to capture that value that is
+being returned. That is how you work
+with functions.
