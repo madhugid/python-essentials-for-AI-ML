@@ -1,0 +1,55 @@
+We've briefly seen a little bit
+about methods in classes, but there's a little bit more to methods and
+adding methods and working with methods. They kind of are like
+the special thunder init method, but we'll take a look a little
+bit more into detail. So let me create this
+class with two methods. In reality I'm using one constructor
+which is still a method in line 5. going to create another one on line 8. So what this is doing is a budget class. I'm going to set some budget that
+budget is going to be have like an American value and it's going
+to be part of the budget class and then expense is going
+to require an argument. So here always have to have that argument
+first, they're going to require an amount. And then what I'm going to do is
+I'm going to reset the self.budget, which is the same thing that we're
+starting or defining here in line 6. And we're going to do self.budget and going to substract that with
+the amount that we're passing in. And then I'm going to print
+out Budget left = self.budget. So I'm going to start
+with the budget of 100. And let's see how that works,
+I'm going to run it. And because I'm starting
+with a budget of 100 and expense 23 then I'm left with 77 then
+45 I'm left with 32 so that's all good. Now one thing that I like to
+do is separate concerns and you might find a class that
+has more than one methods. So in this case it is the same class but
+it has another method called report. And that report will only do
+the printing Budget left = self.budget. That is exactly what we're doing
+here before on line number 10. So line number 10 we were doing
+the reporting and I want to extract that. Put it somewhere else in
+a different method and now I'm going to have
+something different here. So like this budget class is
+going to have a report method and you can see here well,
+the edge is giving it away. I am calling that method
+from another method. And the way to call a method from
+another method is also using self. So you can see here on line 9
+after resetting self budget. I am also calling on line
+number 9 I am calling report. So I've already run this and this will work exactly the same
+as before if I run this again. Well, I'm I'm also extension in that here. That's why it keeps being the same number. But that's that's the same
+behavior as before. All right. So next we want to check
+that the internal state of the instance in this case the budget. We dated april underscore budget
+which was a budget of four hun. We can access that because it's remember
+it's always accessible after the dot. So if I run this we'll see that
+that's available to us as 3 66. Now this is accessible from us
+from the outside of the class. Externally. Like within the class you
+would access this self dot budget as you saw right
+here in line 12 on that cell. Alright. But the other thing is that methods can
+take also arguments in cuba arguments, right? And and we saw that we always have self
+and that we can take an argument like amount here but the reporting I
+decided to add a currency value. I'm going to make it optional and by default it's going to
+have these dollar amounts. I'm going to run these so execute this and it's going to give me the ability
+to report with that or without it. And that would that would basically mean
+that we can have different different types of results here. So first I'm going to do a budget for,
+it's going to be the same budget but the reporting is going to change first
+with dollar sign and then with this P E. R. And dollar sign. And you can see that you
+can change that as well. So that's how you would seem very
+similar to a function, isn't it? And in the same rules apply. You always have to have arguments first
+and then keyword arguments later. You can also use variable arguments, variable keyword arguments as we saw for
+functions. So it's one thing to also keep in mind. So that's it. That's that's how we work with more
+methods, having more methods and calling methods from other methods.
